@@ -1074,6 +1074,12 @@ psutil==7.0.0
     # via
     #   -r requirements/edx/base.txt
     #   edx-django-utils
+psycopg[binary]==3.2.10
+    # via -r requirements/edx/base.txt
+psycopg-binary==3.2.10
+    # via
+    #   -r requirements/edx/base.txt
+    #   psycopg
 pyasn1==0.6.1
     # via
     #   -r requirements/edx/base.txt
@@ -1469,6 +1475,7 @@ typing-extensions==4.13.2
     #   django-countries
     #   edx-opaque-keys
     #   jwcrypto
+    #   psycopg
     #   pydantic
     #   pydantic-core
     #   pydata-sphinx-theme

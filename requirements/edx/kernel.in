@@ -124,6 +124,7 @@ openedx-django-wiki
 path
 piexif                              # Exif image metadata manipulation, used in the profile_images app
 Pillow                              # Image manipulation library; used for course assets, profile images, invoice PDFs, etc.
+psycopg[binary]
 psutil                              # Library for retrieving information on running processes and system utilization
 pycountry
 pycryptodomex

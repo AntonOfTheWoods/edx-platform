@@ -1145,6 +1145,12 @@ psutil==7.0.0
     #   edx-django-utils
     #   pact-python
     #   pytest-xdist
+psycopg[binary]==3.2.10
+    # via -r requirements/edx/base.txt
+psycopg-binary==3.2.10
+    # via
+    #   -r requirements/edx/base.txt
+    #   psycopg
 py==1.11.0
     # via -r requirements/edx/testing.in
 pyasn1==0.6.1
@@ -1564,6 +1570,7 @@ typing-extensions==4.13.2
     #   grimp
     #   import-linter
     #   jwcrypto
+    #   psycopg
     #   pydantic
     #   pydantic-core
     #   pylti1p3

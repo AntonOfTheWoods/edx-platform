@@ -904,7 +904,7 @@ psutil==7.0.0
     # via
     #   -r requirements/edx/kernel.in
     #   edx-django-utils
-psycopg2-binary==2.9.10
+psycopg[binary]==3.2.10
     # via -r requirements/edx/kernel.in
 pyasn1==0.6.1
     # via
@@ -1181,6 +1181,7 @@ typing-extensions==4.15.0
     #   django-countries
     #   edx-opaque-keys
     #   jwcrypto
+    #   psycopg
     #   pydantic
     #   pydantic-core
     #   pylti1p3
